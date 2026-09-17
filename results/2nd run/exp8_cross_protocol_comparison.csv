@@ -1,0 +1,9 @@
+protocol,gen_time_ms_mean,classical_security_bits,post_quantum_security_bits,quantum_threat
+BB84,7491.1358,128,128,Quantum-native secure
+E91,0.1318,64,64,Quantum-native secure
+DH,0.0015,347,0,Broken (Shor's)
+ECC,0.0222,97,0,Broken (Shor's)
+RSA-2048,42.0821,2048,0,Broken (Shor's)
+AES-128,0.0127,128,64,Weakened (Grover's)
+AES-256,0.0119,256,128,Quantum resistant
+SHA-256,0.0033,256,128,Weakened (Grover's)
